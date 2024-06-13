@@ -36,13 +36,15 @@ if place == "forest":
     action = input("climb a tree or cross a river?")
     if action == "climb a tree":
         print("You found a bird's nest!")
-    if action == "Do nothing":
-        pass
+    if action == "Do nothing": 
+        pass #Will come up with a penalty for doing nothing
     else:
         print("You found a boat!")
 elif place == "cave":
     choice = input("light a torch or proceed in the dark")
     if choice == "light a torch":
         print("You light a torch, illuminating the cave seeing the treasure and traps")
+        if choice == "Use fire wisp scroll":
+            pass #Will come up with a different outcome if this choice is used
     else:
         print("You move forward in the dark, and falling into the pit trap. GAME OVER")

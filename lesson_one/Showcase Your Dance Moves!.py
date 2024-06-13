@@ -6,8 +6,8 @@ if weather == "sunny":
 else:
     print("Take an umbrella!") # Fixed lack of indentation
 
-#Task 2
-mood = input("How are you feeling today?")
+#Task 2 Your Mood Today 
+mood = input("How are you feeling today?") 
 if "happy": 
     print("That's great to hear!")
 if "sad":

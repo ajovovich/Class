@@ -1,5 +1,5 @@
 # Task 1: Code Correction:
-number = int(input("Enter a number: "))
+number = int(input("Enter a number"))
 
 if number > 0:
     print("The number is positive.")
